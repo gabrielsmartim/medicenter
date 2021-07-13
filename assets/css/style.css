@@ -1,0 +1,526 @@
+body {
+ margin: 0px;
+ padding: 0px;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+}
+
+.logo {
+    display: flex;
+    align-items: center; 
+}
+
+.imglogo {
+    height: 40px;
+    margin: 20px;
+    width: 200;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+.menumobile {
+    display: none;
+    width: 50px;
+    height: 50px;
+}
+
+nav ul, nav li {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+nav ul {
+    display: flex;
+
+}
+
+nav a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #727272;
+}
+
+nav .active a, nav a:hover {
+    background-color: #39aae1 ;
+    color: white;
+}
+
+.banner {
+    background-image: url('../images/velim.jpg');
+    background-position: center;
+    background-size: 1280px 700px cover; 
+    background-repeat: no-repeat;
+    min-height: 750px;
+    max-height: 750px;
+    display: flex;
+    justify-content: center; 
+}
+
+.column {
+    flex-direction: column;
+}
+
+.bannertop {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bannertop h1 {
+    color: white;
+    font-size: 70px;
+    text-shadow: 0px 1px 0px #55555555;
+    margin: 0px;
+    padding: 0px;
+    max-width: 350px;
+}
+
+.bannertop h2 {
+    color: white;
+    font-size: 21px;
+    text-shadow: 0px 1px 0px #55555555;
+    margin: 0px;
+    padding: 0px;
+    max-width: 350px;
+}
+
+.banneroptions {
+    height: 210px;
+    display: flex;
+}
+
+.box1, .box2, .box3 {
+    flex: 1;
+    color: white;
+    padding: 20px;
+
+ }
+
+.box1 {
+    background-color: #39aae1;
+}
+
+.box2 {
+    background-color: #0079c7;
+}
+
+.box3 {
+    background-color: #2b4c99;
+}
+.bannertitle {
+    font-size: 22px;
+
+}
+
+.bannertext {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.banneroptions a {
+    display: inline-block;
+    border: 1px solid;
+    padding: 5px;
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.hourbox {
+    display: flex;
+    flex-direction: row;
+    margin-top: 13px;
+}
+
+.hour {
+    flex: 1;
+    margin-left: 50px;
+}
+
+.hourbar {
+    width: 260px;
+    height: 1px;
+    background-color: whitesmoke;
+    margin-top: 7px;
+} 
+
+.dia {
+    flex: 1;
+    
+}
+
+.bannertext1 {
+    display: flex;
+    flex-direction: column;
+}
+
+#geral {
+    display: flex;
+    justify-content: center;
+}
+
+#geral section {
+    flex: 2;
+}
+
+#geral aside {
+    flex: 1;
+}
+
+.widgettitle {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.widgettitletext {
+    color: black;
+    font-size: 21px;
+    font-weight: bold;
+
+}
+
+.widgetbar {
+    width: 55px;
+    height: 2px;
+    background-color: #39aae1;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.depbox {
+    flex: 1;
+}
+
+.bluebox {
+    background-color: #39aae1;
+    width: 140px;
+    height: 140px;
+    margin: 10px;
+}
+
+.txt1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.elink {
+    text-decoration: none;
+    color: blue;
+}
+
+.blackbar {
+    width: 330px;
+    height: 2px;
+    background-color: #cacaca;
+}
+
+article {
+    flex: 1;
+    min-width: 300px;
+    margin-right: 30px;
+}
+
+article a {
+    text-decoration:none;
+    
+}
+
+article .newsdata {
+    display: flex;
+}
+
+article .newspostat {
+    background-color: #2b4c99;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+}
+
+article .newscomments {
+    margin-left: 2px;
+    background-color: #39aae1 ;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+}
+
+article .newstumb img {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+
+article .newstitle {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: black;
+    font-size: 20px;
+}
+
+article .newsresume {
+    color: #5c5c5c;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 50px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+footer {
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.footermenu {
+    display: flex;
+}
+
+.fm1, .fm2, .fm3 {
+    flex: 1;
+    color: white;
+    padding: 20px;
+}
+
+.fm1 {
+    background-color: #39aae1;
+}
+
+.fm2 {
+    background-color: #0079c7;
+}
+
+.fm3 {
+    background-color: #2b4c99;
+}
+
+.flexcolumn {
+    flex-direction: column;
+}
+
+.footerarea {
+    display: flex;
+    
+}
+
+.footerareaitem {
+    flex: 1;
+    color: white;
+}
+
+footer .widgettitletext {
+    font-size: 20px ;
+    color: white;
+}
+
+.fm1title {
+    font-size: 25px;
+    margin-bottom: 15px;
+
+}
+
+.fm1desc {
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.fm2title {
+    font-size: 25px;
+    margin-bottom: 15px;
+
+}
+
+.fm2desc {
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.fm3title {
+    font-size: 25px;
+    margin-bottom: 15px;
+
+}
+
+.fm3desc {
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+
+
+.fm1info{
+    display: flex;
+}
+
+.footertext1 {
+    color: #727272;
+    font-size: 13px;
+    line-height: 19px;
+}
+
+.footernumb {
+    margin-left: 65px;
+}
+
+.fm1link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.medicenter31 {
+    margin-top: 30px;
+}
+
+.fm1text1 {
+    margin-top: 25px;
+}
+
+.fm2text {
+    color: white;
+    font-size: 13px;
+    margin-top: 25px;
+}
+
+.fm2year {
+    font-size: 13px;
+    color: #39aae1;
+}
+
+.fm3text a:hover {
+    color: #39aae1;
+}
+
+.fm3text a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.fm3text {
+    margin-top: 25px;  
+}
+
+
+.footercopy {
+    color: #5c5c5c;
+    border-top: 1px solid #2c2c2c;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+@media (max-width:768px) {
+    .bannertop{
+        align-items: center;
+        text-align: center;
+    }
+    
+    .bannertop h1{
+        font-size: 55px;      
+        margin-top: 20px;  
+        
+        
+    }    
+    .bannertop h2 {
+        font-size: 14px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        max-width: 260px;
+        
+    }
+
+    .banneroptions {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .container {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .bluebox {
+        width: 100px;
+        height: 100px;
+    }
+
+    header .container {
+        flex-direction: row;
+    }
+
+    nav ul {
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: white;
+        text-align: center;
+    }
+
+    header {
+        height: auto;
+    }
+
+    .menumobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .mm-line {
+        height: 5px;
+        background-color: #39aae1;
+        border-radius: 6px;    
+    }
+}
+
+@media (max-width:425px){
+    .bannertitle {
+        font-size: 17px;
+    }
+
+    .bannertext, .bannertext1 {
+        font-size: 13px;
+    }
+
+    .bluebox {
+        width: 90px;
+        height: 90px;
+    }
+
+    .footermenu {
+        flex-direction: column;
+    }
+
+    .footerarea {
+    flex-direction: column;
+    }   
+
+}
+
